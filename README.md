@@ -1,4 +1,4 @@
-<h1 align="center">IceLinux</h1>
+<h1 align="center">NekoIceTeam-Repo</h1>
 
 ## Navigation
 - [Introduction](#introduction)
@@ -17,7 +17,7 @@ pacman-key --lsign-key 80DDC2314727CBD9477EC94D8E02DA8285638FD2
 2. Add NekoIceTeam repo to /etc/pacman.conf
 ```
 [nekoiceteam]
-Include = /etc/pacman.d/nekoiceteam-mirrorlist
+Server = https://nekoiceteam.github.io/NekoIceTeam-Repo/os/$arch
 ```
 3. Sync pacman
 ```
